@@ -1,0 +1,30 @@
+Esercizio 1:
+===========
+Creare un nuovo DB 'corso'
+Creare nel DB una nuova tabella 'persone' con i campi (id [int], nominativo [varchar(100)], dataNascita [varchar(20)], citta[varchar(30)])
+
+Creare nel DB una tabella 'persone_2' (id [int], nome[varchar(50)], cognome[varchar(50)], dataNascita[date], citta[varchar(30)])
+
+Inserire un po' di record nella prima tabella....
+
+Scrivere un programma che:
+- legga tutti record dalla prima tabella
+- elimini tutti i record dalla seconda
+- trasferisca i record della prima tabella nella seconda:
+	- dividendo nome e cognome
+	- trasformando la data di nascita(testo) in data(date) (le date come testo sono in formato ISO)
+	
+Esercizio 2:
+===========
+Utilizzeremo il DB 'corso'
+
+1. Creare una stored procedure che:
+	- chiede in input nome cognome, dataNascita e citta
+	- inserisce un nuovo record nella tabella persone_2 con id = MAX(id) + 1
+	- visualizza il nuovo record nel pannello dei risultati
+2. Richiamare la stored procedure qualche volta per testare (inserendo alcune righe nella tabella)
+3. Creare una procedura che aggiorna il nome delle persone che compiono gli anni oggi aggiungendo un '*'
+4. Creare una funzione di tipo tabella che restituisce le persone che hanno un nome palindromo
+
+
+
