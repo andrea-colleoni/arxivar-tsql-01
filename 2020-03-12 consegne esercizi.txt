@@ -25,6 +25,3 @@ Utilizzeremo il DB 'corso'
 2. Richiamare la stored procedure qualche volta per testare (inserendo alcune righe nella tabella)
 3. Creare una procedura che aggiorna il nome delle persone che compiono gli anni oggi aggiungendo un '*'
 4. Creare una funzione di tipo tabella che restituisce le persone che hanno un nome palindromo
-
-
-
