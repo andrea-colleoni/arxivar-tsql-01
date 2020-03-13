@@ -1,0 +1,9 @@
+Esercizio 1:
+===========
+Utilizzeremo il DB 'corso'
+
+- creare una tabella citta con [nome] (chiave), [numeroPersone] [int]
+- crerare un trigger che su inserimento di uno o più record nella tabella persone_2
+	- se la città della persona inserita non è tra le città presenti nella tabella citta la inserisce con numeroPersone = 1
+	- se la citta esiste già aggiorna il numeroPersone al conteggio delle persone di quella città
+	- se la citta ha più di 5 persone registrate notificare un errore applicativo che indichi la situazione che si è verificata
